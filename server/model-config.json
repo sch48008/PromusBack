@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AppUser": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Firm": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "RegCodeFirm": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "RegCodeUser": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Property": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Map": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "TenantProperty": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Task": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Note": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Image": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}

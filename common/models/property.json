@@ -1,0 +1,54 @@
+{
+  "name": "Property",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firmId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "owner": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "subtype": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "numberOfUnits": {
+      "type": "number"
+    },
+    "webLink": {
+      "type": "string"
+    },
+    "addressId": {
+      "type": "string",
+      "required": true
+    },
+    "geoLocation": {
+      "type": "geopoint"
+    },
+    "addedBy": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

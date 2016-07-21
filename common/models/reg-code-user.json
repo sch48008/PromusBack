@@ -1,0 +1,33 @@
+{
+  "name": "RegCodeUser",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firmId": {
+      "type": "string",
+      "required": true
+    },
+    "userType": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "regCode": {
+      "type": "number",
+      "required": true
+    },
+    "propertyId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

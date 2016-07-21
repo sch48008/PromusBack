@@ -1,0 +1,41 @@
+{
+  "name": "AppUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userType": {
+      "type": "string",
+      "required": true
+    },
+    "firmId": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "phone1": {
+      "type": "string",
+      "required": true
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "preferredContactMethod": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

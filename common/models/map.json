@@ -1,0 +1,22 @@
+{
+  "name": "Map",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "file": {
+      "type": "string",
+      "required": true
+    },
+    "propertyId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
