@@ -8,22 +8,22 @@
   "properties": {
     "firmId": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": " "
     },
     "userType": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": " "
     },
     "email": {
       "type": "string",
-      "required": true
-    },
-    "regCode": {
-      "type": "number",
-      "required": true
+      "required": true,
+      "default": " "
     },
     "propertyId": {
-      "type": "string"
+      "type": "string",
+      "default": " "
     }
   },
   "validations": [],

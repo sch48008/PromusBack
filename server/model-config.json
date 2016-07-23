@@ -48,10 +48,6 @@
     "dataSource": "mongo",
     "public": true
   },
-  "RegCodeUser": {
-    "dataSource": "mongo",
-    "public": true
-  },
   "Property": {
     "dataSource": "mongo",
     "public": true
@@ -73,6 +69,10 @@
     "public": true
   },
   "Image": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "RegCodeUser": {
     "dataSource": "mongo",
     "public": true
   }
