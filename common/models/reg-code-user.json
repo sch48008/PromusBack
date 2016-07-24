@@ -21,6 +21,11 @@
       "required": true,
       "default": " "
     },
+    "regCode": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
     "propertyId": {
       "type": "string",
       "default": " "
