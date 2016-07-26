@@ -6,6 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },    
     "regCode": {
       "type": "number",
       "required": true
