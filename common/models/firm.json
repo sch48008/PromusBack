@@ -16,9 +16,6 @@
     },
     "addressId": {
       "type": "string"
-    },
-    "primaryContactId": {
-      "type": "string"
     }
   },
   "validations": [],
