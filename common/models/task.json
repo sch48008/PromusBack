@@ -12,6 +12,10 @@
     "unit": {
       "type": "string"
     },
+    "firmId": {
+      "type": "string",
+      "required": true
+    },    
     "taskNumber": {
       "type": "number",
       "required": true
